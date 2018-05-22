@@ -18,7 +18,7 @@ yarn add vue-context-api
 
 See a [live example](https://codesandbox.io/s/nrjz7ky4mp).
 
-** ThemeContext.js **
+**ThemeContext.js**
 
 ```javascript
 import { createContext } from "vue-context-api";
@@ -27,7 +27,7 @@ import { createContext } from "vue-context-api";
 export const { Provider, Consumer } = createContext("light");
 ```
 
-** App.vue **
+**App.vue**
 
 ```html
 <template>
@@ -50,7 +50,7 @@ export default {
 </script>
 ```
 
-** ThemedButton.vue **
+**ThemedButton.vue**
 
 ```html
 <template>
