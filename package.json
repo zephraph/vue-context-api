@@ -2,6 +2,16 @@
   "name": "vue-context-api",
   "version": "1.0.0",
   "description": "A react-like context api for Vue",
+  "keywords": [
+    "vue",
+    "react",
+    "context",
+    "api",
+    "provider",
+    "consumer",
+    "inject",
+    "provide"
+  ],
   "source": "src/index.js",
   "main": "lib/vue-context-api.js",
   "umd:main": "lib/vue-context-api.umd.js",
@@ -27,10 +37,7 @@
       "@semantic-release/npm",
       "@semantic-release/git"
     ],
-    "publish": [
-      "@semantic-release/github",
-      "@semantic-release/npm"
-    ]
+    "publish": ["@semantic-release/github", "@semantic-release/npm"]
   },
   "devDependencies": {
     "@babel/core": "^7.0.0-beta.47",
