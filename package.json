@@ -55,6 +55,9 @@
     "vue": "^2.5.16",
     "vue-template-compiler": "^2.5.16"
   },
+  "peerDependencies": {
+    "vue": "^2.5.0"
+  },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
