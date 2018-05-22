@@ -16,6 +16,8 @@ yarn add vue-context-api
 
 ## Example Usage
 
+See a [live example](https://codesandbox.io/s/nrjz7ky4mp).
+
 ** ThemeContext.js **
 
 ```javascript
