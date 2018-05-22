@@ -1,0 +1,9 @@
+{
+  "name": "vue-context-api",
+  "version": "1.6.0",
+  "description": "A react-like context api for Vue",
+  "main": "index.js",
+  "repository": "https://github.com/zephraph/vue-context-api",
+  "author": "zephraph <zephraph@gmail.com>",
+  "license": "MIT"
+}
