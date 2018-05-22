@@ -2,6 +2,18 @@
 
 A react-like context component api for Vue.js
 
+## Installation
+
+```
+npm install --save vue-context-api
+```
+
+or
+
+```
+yarn add vue-context-api
+```
+
 ## Example Usage
 
 ** ThemeContext.js **
