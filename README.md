@@ -1,4 +1,4 @@
-# vue-context-component
+# vue-context-api
 
 A react-like context component api for Vue.js
 
