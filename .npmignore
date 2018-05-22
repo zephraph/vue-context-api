@@ -1,0 +1,6 @@
+src
+.gitignore
+node_modules
+.npmignore
+.travis.yml
+yarn.lock
