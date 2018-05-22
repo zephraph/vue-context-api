@@ -12,6 +12,7 @@
   "scripts": {
     "build": "microbundle",
     "dev": "microbundle watch",
+    "test": "jest",
     "semantic-release": "semantic-release",
     "travis-deploy-once": "travis-deploy-once"
   },
@@ -26,19 +27,35 @@
       "@semantic-release/npm",
       "@semantic-release/git"
     ],
-    "publish": ["@semantic-release/github", "@semantic-release/npm"]
+    "publish": [
+      "@semantic-release/github",
+      "@semantic-release/npm"
+    ]
   },
   "devDependencies": {
+    "@babel/core": "^7.0.0-beta.47",
+    "@babel/preset-env": "^7.0.0-beta.47",
     "@semantic-release/changelog": "^2.0.2",
     "@semantic-release/git": "^5.0.0",
+    "@vue/test-utils": "^1.0.0-beta.16",
+    "babel-core": "^7.0.0-0",
+    "babel-jest": "^22.4.4",
     "cz-conventional-changelog": "^2.1.0",
+    "jest": "^22.4.4",
     "microbundle": "^0.4.4",
     "semantic-release": "^15.5.0",
-    "travis-deploy-once": "^5.0.0"
+    "travis-deploy-once": "^5.0.0",
+    "vue": "^2.5.16",
+    "vue-template-compiler": "^2.5.16"
   },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.js$": "babel-jest"
     }
   }
 }
