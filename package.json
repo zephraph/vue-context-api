@@ -1,9 +1,41 @@
 {
   "name": "vue-context-api",
-  "version": "1.6.0",
+  "version": "0.0.0-development",
   "description": "A react-like context api for Vue",
   "main": "index.js",
   "repository": "https://github.com/zephraph/vue-context-api",
   "author": "zephraph <zephraph@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "semantic-release": "semantic-release",
+    "travis-deploy-once": "travis-deploy-once"
+  },
+  "release": {
+    "verifyConditions": [
+      "@semantic-release/changelog",
+      "@semantic-release/npm",
+      "@semantic-release/git"
+    ],
+    "prepare": [
+      "@semantic-release/changelog",
+      "@semantic-release/npm",
+      "@semantic-release/git"
+    ],
+    "publish": [
+      "@semantic-release/github",
+      "@semantic-release/npm"
+    ]
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^2.0.2",
+    "@semantic-release/git": "^5.0.0",
+    "cz-conventional-changelog": "^2.1.0",
+    "semantic-release": "^15.5.0",
+    "travis-deploy-once": "^5.0.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }
