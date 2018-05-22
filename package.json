@@ -1,6 +1,6 @@
 {
   "name": "vue-context-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A react-like context api for Vue",
   "keywords": [
     "vue",
@@ -37,7 +37,10 @@
       "@semantic-release/npm",
       "@semantic-release/git"
     ],
-    "publish": ["@semantic-release/github", "@semantic-release/npm"]
+    "publish": [
+      "@semantic-release/github",
+      "@semantic-release/npm"
+    ]
   },
   "devDependencies": {
     "@babel/core": "^7.0.0-beta.47",
